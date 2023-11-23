@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007bff; 
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0; 
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.SEF-info-box {
+    flex: 1;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0; 
+    max-width: 500px; 
+}
+
+.SEF-info-image {
+    flex: 1;
+    width: 100%; 
+    border-radius: 5px;
+    margin-bottom: 0; 
+    max-height: 500px;
+}
+
+.SEF-oval-button {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SEF-oval-button:hover {
+    background-color: #ddd;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.SEF-logo-item {
+    text-align: center;
+    width: 100%;
+}
+
+.SEF-logo-item img {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.SEF-side-images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.SEF-side-images img {
+    width: 48%; 
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.SEF-nav-button {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.SEF-nav-button:hover {
+    background-color: #ddd;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+    background-color: orange;
+}
+.SEF-oval-box {
+    background-color:white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.SEF-footer-text {
+    margin: 0;
+    color: black;
+}
